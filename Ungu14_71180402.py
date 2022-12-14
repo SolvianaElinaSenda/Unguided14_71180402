@@ -60,6 +60,11 @@ class Graph:
     # untuk pembacaan traversing bfs graph
     def bfs(self, node):
         # tulis kode Anda di sini
+        queue = []
+        queue.append(node)
+        while queue:
+            s = queue.pop(0)
+            print(s)
         print("\n")
 
 
